@@ -1,0 +1,578 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Tjc",
+      "type": "tab",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tjc"
+    },
+    {
+      "name": "Coffee",
+      "type": "potion",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee"
+    },
+    {
+      "name": "EspressoDrunken",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espresso_drunken",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Espresso",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espresso"
+    },
+    {
+      "name": "CraftedCoffee",
+      "type": "achievement",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafted_coffee"
+    },
+    {
+      "name": "EspressoICrafted",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espresso_i_crafted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EspressoRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espresso_recipe"
+    },
+    {
+      "name": "CoffeeMachine",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_machine"
+    },
+    {
+      "name": "CoffeeMachineGUI",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_machine_gui"
+    },
+    {
+      "name": "EmptyMug",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_mug"
+    },
+    {
+      "name": "CoffeeLog",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_log"
+    },
+    {
+      "name": "CoffeeLeaves",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_leaves"
+    },
+    {
+      "name": "CoffeeMachineGUIRecipes",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_machine_gui_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RawCoffeeBeans",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_coffee_beans"
+    },
+    {
+      "name": "RoastedCoffeeBeans",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "roasted_coffee_beans"
+    },
+    {
+      "name": "RoastTheBeans",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "roast_the_beans"
+    },
+    {
+      "name": "CoffeeMachineRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_machine_recipe"
+    },
+    {
+      "name": "EmptyCoffeeFilter",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_coffee_filter"
+    },
+    {
+      "name": "CoffeeGrinder",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_grinder"
+    },
+    {
+      "name": "CoffeeGrinderGUI",
+      "type": "gui",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_grinder_gui"
+    },
+    {
+      "name": "CoffeeGrinderGUIRecipes",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_grinder_gui_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoffeeLeavesBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_leaves_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoffeePowder",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_powder"
+    },
+    {
+      "name": "FullCoffeeFilter",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "full_coffee_filter"
+    },
+    {
+      "name": "MilkBottle",
+      "type": "food",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milk_bottle"
+    },
+    {
+      "name": "SugaredEspresso",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sugared_espresso"
+    },
+    {
+      "name": "SugaredEspressoDrunken",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sugared_espresso_drunken",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoffeeTrapdoor",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_trapdoor"
+    },
+    {
+      "name": "CoffeeSapling",
+      "type": "plant",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_sapling"
+    },
+    {
+      "name": "MilkBottleRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milk_bottle_recipe"
+    },
+    {
+      "name": "Joseeees",
+      "type": "mob",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "joseeees"
+    },
+    {
+      "name": "FilterSpawnerRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "filter_spawner_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FilterSpawner",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "filter_spawner"
+    },
+    {
+      "name": "JoseeeesOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "joseeees_on_entity_tick_update",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CocoaPowder",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cocoa_powder"
+    },
+    {
+      "name": "JoseeeesGUI",
+      "type": "gui",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "joseeees_gui"
+    },
+    {
+      "name": "JoseeeesRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "joseeees_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoffeeJungle",
+      "type": "biome",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_jungle"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "coffee_grinder",
+      "file": "coffeegrinder",
+      "category": "block"
+    },
+    {
+      "name": "coffee_machine",
+      "file": "coffeemachine",
+      "category": "block"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.tipped_arrow.effect.coffee": "Arrow of Coffee",
+      "item.mse_tjcmod.full_coffee_filter": "Full Coffee Filter",
+      "advancements.crafted_coffee.title": "Make any type of Coffee",
+      "advancements.crafted_coffee.descr": "Make any type of Coffee",
+      "block.mse_tjcmod.coffee_log": "Coffee Log",
+      "item.minecraft.splash_potion.effect.coffee": "Splash Coffee",
+      "item.minecraft.potion.effect.coffee": "Coffee",
+      "block.mse_tjcmod.coffee_sapling": "Coffee Sapling",
+      "item.mse_tjcmod.sugared_espresso": "Sugared Espresso",
+      "item.mse_tjcmod.roasted_coffee_beans": "Roasted Coffee Beans",
+      "item.mse_tjcmod.raw_coffee_beans": "Raw Coffee Beans",
+      "block.mse_tjcmod.coffee_leaves": "Coffee Leaves",
+      "itemGroup.tabtjc": "Thejocraft\u0027s Mod",
+      "effect.coffee": "Coffee",
+      "item.mse_tjcmod.espresso": "Espresso",
+      "block.mse_tjcmod.coffee_grinder": "Coffee Grinder",
+      "block.mse_tjcmod.coffee_machine": "Coffee Machine",
+      "item.mse_tjcmod.filter_spawner": "Filter Spawner",
+      "item.mse_tjcmod.cocoa_powder": "Cocoa Powder",
+      "item.mse_tjcmod.coffee_powder": "Coffee Powder",
+      "item.mse_tjcmod.empty_mug": "Empty Mug",
+      "item.mse_tjcmod.joseeees": "Joseeees Spawn Egg",
+      "entity.mse_tjcmod.joseeees": "Joseeees",
+      "item.mse_tjcmod.milk_bottle": "Milk Bottle",
+      "item.mse_tjcmod.empty_coffee_filter": "Empty Coffee Filter",
+      "item.minecraft.lingering_potion.effect.coffee": "Lingering Coffee",
+      "block.mse_tjcmod.coffee_trapdoor": "Coffee Trapdoor"
+    },
+    "de_de": {
+      "item.minecraft.tipped_arrow.effect.coffee": "Arrow of Coffee",
+      "item.mse_tjcmod.full_coffee_filter": "voller Kaffeefilter",
+      "advancements.crafted_coffee.title": "Mache irgendeine Sorte Kaffee",
+      "advancements.crafted_coffee.descr": "Mache irgendeine Sorte Kaffee",
+      "block.mse_tjcmod.coffee_log": "Kaffeestamm",
+      "item.minecraft.splash_potion.effect.coffee": "Splash Coffee",
+      "item.minecraft.potion.effect.coffee": "Coffee",
+      "block.mse_tjcmod.coffee_sapling": "Kaffeesetzling",
+      "item.mse_tjcmod.sugared_espresso": "Espresso",
+      "item.mse_tjcmod.roasted_coffee_beans": "Geröstete Kaffeebohnen",
+      "item.mse_tjcmod.raw_coffee_beans": "Rohe Kaffeebohnen",
+      "block.mse_tjcmod.coffee_leaves": "Kaffeeblätter",
+      "itemGroup.tabtjc": "Thejocrafts Mod",
+      "effect.coffee": "Kaffee",
+      "item.mse_tjcmod.espresso": "Espresso",
+      "block.mse_tjcmod.coffee_grinder": "Kaffeemühle",
+      "block.mse_tjcmod.coffee_machine": "Kaffeemaschine",
+      "item.mse_tjcmod.filter_spawner": "Filter Spawner",
+      "item.mse_tjcmod.cocoa_powder": "Cocoa Powder",
+      "item.mse_tjcmod.coffee_powder": "Kaffeepulver",
+      "item.mse_tjcmod.empty_mug": "Leere Tasse",
+      "item.mse_tjcmod.joseeees": "Joseeees Spawn Egg",
+      "entity.mse_tjcmod.joseeees": "Joseeees",
+      "item.mse_tjcmod.milk_bottle": "Milchflasche",
+      "item.mse_tjcmod.empty_coffee_filter": "Leerer Kaffeefilter",
+      "item.minecraft.lingering_potion.effect.coffee": "Lingering Coffee",
+      "block.mse_tjcmod.coffee_trapdoor": "Kaffeefalltür"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "mse_tjcmod",
+    "modName": "Useless Stuff Mod",
+    "version": "1.0.0",
+    "author": "christian",
+    "websiteURL": "https://makerkidsfuerth.de",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "coffe",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created by MSE",
+    "modElementsPackage": "com.mse.tjcmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}
