@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mse_tjcmod:blocks/coffee_sapling",
+    "particle": "mse_tjcmod:blocks/coffee_sapling"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "mse_tjcmod:custom/coffee_machine",
+  "textures": {
+    "all": "mse_tjcmod:blocks/coal_block",
+    "particle": "mse_tjcmod:blocks/coal_block",
+    "2": "mse_tjcmod:blocks/coal_block",
+    "3": "mse_tjcmod:blocks/iron_block"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "mse_tjcmod:blocks/coffee_trapdoor",
+    "particle": "mse_tjcmod:blocks/coffee_trapdoor"
+  }
+}

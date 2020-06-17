@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mse_tjcmod:blocks/coffee_leaves",
+    "particle": "mse_tjcmod:blocks/coffee_leaves"
+  }
+}

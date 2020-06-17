@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "iron_block",
+        "1": "coal_block",
+        "2": "glass"
+      },
+      "name": "default"
+    }
+  }
+}

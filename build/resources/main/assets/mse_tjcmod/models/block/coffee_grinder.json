@@ -1,0 +1,10 @@
+{
+  "parent": "mse_tjcmod:custom/coffee_grinder",
+  "textures": {
+    "all": "mse_tjcmod:blocks/coal_block",
+    "particle": "mse_tjcmod:blocks/coal_block",
+    "0": "mse_tjcmod:blocks/iron_block",
+    "1": "mse_tjcmod:blocks/coal_block",
+    "2": "mse_tjcmod:blocks/glass"
+  }
+}

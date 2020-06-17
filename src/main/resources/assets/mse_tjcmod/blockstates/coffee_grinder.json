@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mse_tjcmod:block/coffee_grinder"
+    },
+    "facing=east": {
+      "model": "mse_tjcmod:block/coffee_grinder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mse_tjcmod:block/coffee_grinder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mse_tjcmod:block/coffee_grinder",
+      "y": 270
+    }
+  }
+}

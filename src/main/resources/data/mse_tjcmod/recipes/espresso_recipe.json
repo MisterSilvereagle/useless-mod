@@ -1,0 +1,42 @@
+{
+  "group": "mse_tjcmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "2": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "3": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "4": {
+      "item": "minecraft:bucket"
+    },
+    "5": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "6": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "7": {
+      "item": "minecraft:water_bucket"
+    },
+    "8": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "mse_tjcmod:espresso",
+    "count": 1
+  }
+}

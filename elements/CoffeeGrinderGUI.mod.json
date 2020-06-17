@@ -1,0 +1,62 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Coffee Grinder",
+          "color": {
+            "value": -11513776,
+            "falpha": 0.0
+          },
+          "name": "Coffee Grinder",
+          "x": 262,
+          "y": 85
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 336,
+          "y": 150
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 480,
+          "y": 150
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Grind",
+          "onClick": {
+            "name": "CoffeeGrinderGUIRecipes"
+          },
+          "width": 100,
+          "height": 40,
+          "name": "Grind",
+          "x": 377,
+          "y": 191
+        }
+      }
+    ]
+  }
+}

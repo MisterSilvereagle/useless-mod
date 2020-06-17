@@ -1,0 +1,30 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "espresso",
+    "customModelName": "Normal",
+    "name": "Sugared Espresso",
+    "specialInfo": [
+      "Sugared Espresso is a small, strong, and sweet Coffee."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Tjc"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 1,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "EspressoDrunken"
+    },
+    "onCrafted": {
+      "name": "EspressoICrafted"
+    }
+  }
+}

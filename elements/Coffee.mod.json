@@ -1,0 +1,19 @@
+{
+  "_fv": 8,
+  "_type": "potion",
+  "definition": {
+    "name": "Coffee",
+    "effectName": "Coffee",
+    "icon": "coffe.png",
+    "color": {
+      "value": -14217728,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

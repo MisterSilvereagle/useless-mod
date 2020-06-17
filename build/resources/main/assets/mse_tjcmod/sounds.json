@@ -1,0 +1,20 @@
+{
+  "coffee_grinder": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mse_tjcmod:coffeegrinder",
+        "stream": false
+      }
+    ]
+  },
+  "coffee_machine": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mse_tjcmod:coffeemachine",
+        "stream": false
+      }
+    ]
+  }
+}
